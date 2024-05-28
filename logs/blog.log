@@ -1,0 +1,7 @@
+INFO 2024-05-28 20:34:34,349 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-28 20:34:59,918 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-28 20:35:04,107 urls 30 info
+INFO 2024-05-28 20:35:04,110 basehttp 154 "GET / HTTP/1.1" 200 4
+INFO 2024-05-28 20:36:16,915 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-28 20:36:18,131 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-28 20:36:50,801 autoreload 578 Watching for file changes with StatReloader
