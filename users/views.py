@@ -4,8 +4,10 @@ import re
 from django.db import DatabaseError
 from django.http import HttpResponseBadRequest, HttpResponse, JsonResponse
 from django.shortcuts import render
+from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
+from django.shortcuts import redirect
 
 from libs.captcha.captcha import captcha
 from libs.yuntongxun.sms import CCP
@@ -78,7 +80,11 @@ class RegisterView(View):
         login(request, user)
         # 4. 返回相应，跳转到指定页面
         # 暂时返回一个注册成功的信息，之后再实现跳转到指定页面
-        return HttpResponse('注册成功，重定向到首页')
+        # return HttpResponse('注册成功，重定向到首页')
+
+        # redirect 进行重定向
+        # reverse 是可以通过namespace获取视图对应的路由
+        return redirect(reverse('home:index'))
 
 
 class ImageCodeView(View):

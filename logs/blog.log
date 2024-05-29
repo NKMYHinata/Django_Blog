@@ -104,3 +104,142 @@ INFO 2024-05-29 19:11:43,526 basehttp 154 "GET /imagecode/?uuid=2901d35b-bba7-4b
 INFO 2024-05-29 19:11:54,964 views 159 029121
 INFO 2024-05-29 19:11:55,348 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=kl6f&uuid=2901d35b-bba7-4b6c-8956-1959e4c7da10 HTTP/1.1" 200 63
 INFO 2024-05-29 19:12:02,542 basehttp 154 "POST /register/ HTTP/1.1" 200 33
+INFO 2024-05-29 19:20:13,465 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:20:26,222 basehttp 154 "GET / HTTP/1.1" 200 11726
+WARNING 2024-05-29 19:20:26,300 log 228 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2024-05-29 19:20:26,302 log 228 Not Found: /common/jquery.pagination.css
+WARNING 2024-05-29 19:20:26,303 basehttp 154 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2710
+WARNING 2024-05-29 19:20:26,303 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2701
+WARNING 2024-05-29 19:20:26,305 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:20:26,307 log 228 Not Found: /js/vue-2.5.16.js
+WARNING 2024-05-29 19:20:26,309 log 228 Not Found: /md_css/monokai.css
+WARNING 2024-05-29 19:20:26,310 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+WARNING 2024-05-29 19:20:26,311 log 228 Not Found: /common/common.css
+WARNING 2024-05-29 19:20:26,311 basehttp 154 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2665
+WARNING 2024-05-29 19:20:26,311 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2671
+WARNING 2024-05-29 19:20:26,312 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2668
+WARNING 2024-05-29 19:20:26,315 log 228 Not Found: /js/axios-0.18.0.min.js
+WARNING 2024-05-29 19:20:26,316 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2683
+WARNING 2024-05-29 19:20:26,317 log 228 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2024-05-29 19:20:26,317 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2686
+WARNING 2024-05-29 19:20:26,319 log 228 Not Found: /js/host.js
+WARNING 2024-05-29 19:20:26,319 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2647
+WARNING 2024-05-29 19:20:26,372 log 228 Not Found: /js/common.js
+WARNING 2024-05-29 19:20:26,374 log 228 Not Found: /js/index.js
+WARNING 2024-05-29 19:20:26,374 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2653
+WARNING 2024-05-29 19:20:26,376 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:20:26,376 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2650
+WARNING 2024-05-29 19:20:26,377 log 228 Not Found: /js/jquery.pagination.min.js
+WARNING 2024-05-29 19:20:26,377 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+WARNING 2024-05-29 19:20:26,378 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2698
+INFO 2024-05-29 19:21:19,991 basehttp 154 "GET / HTTP/1.1" 200 11726
+WARNING 2024-05-29 19:21:20,048 log 228 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2024-05-29 19:21:20,050 log 228 Not Found: /md_css/monokai.css
+WARNING 2024-05-29 19:21:20,051 log 228 Not Found: /common/jquery.pagination.css
+WARNING 2024-05-29 19:21:20,052 basehttp 154 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2710
+WARNING 2024-05-29 19:21:20,052 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2671
+WARNING 2024-05-29 19:21:20,053 log 228 Not Found: /js/vue-2.5.16.js
+WARNING 2024-05-29 19:21:20,055 log 228 Not Found: /common/common.css
+WARNING 2024-05-29 19:21:20,055 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2701
+WARNING 2024-05-29 19:21:20,057 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:21:20,059 basehttp 154 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2665
+WARNING 2024-05-29 19:21:20,060 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2668
+WARNING 2024-05-29 19:21:20,062 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+WARNING 2024-05-29 19:21:20,064 log 228 Not Found: /js/axios-0.18.0.min.js
+WARNING 2024-05-29 19:21:20,065 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2683
+WARNING 2024-05-29 19:21:20,065 log 228 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2024-05-29 19:21:20,066 log 228 Not Found: /js/host.js
+WARNING 2024-05-29 19:21:20,067 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2647
+WARNING 2024-05-29 19:21:20,067 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2686
+WARNING 2024-05-29 19:21:20,117 log 228 Not Found: /js/common.js
+WARNING 2024-05-29 19:21:20,118 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2653
+WARNING 2024-05-29 19:21:20,128 log 228 Not Found: /js/jquery.pagination.min.js
+WARNING 2024-05-29 19:21:20,129 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2698
+WARNING 2024-05-29 19:21:20,129 log 228 Not Found: /js/index.js
+WARNING 2024-05-29 19:21:20,130 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:21:20,131 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2650
+WARNING 2024-05-29 19:21:20,131 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+INFO 2024-05-29 19:21:31,890 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:21:34,516 basehttp 154 "GET / HTTP/1.1" 200 11726
+WARNING 2024-05-29 19:21:34,570 log 228 Not Found: /common/common.css
+WARNING 2024-05-29 19:21:34,571 log 228 Not Found: /md_css/monokai.css
+WARNING 2024-05-29 19:21:34,572 log 228 Not Found: /js/vue-2.5.16.js
+WARNING 2024-05-29 19:21:34,573 log 228 Not Found: /common/jquery.pagination.css
+WARNING 2024-05-29 19:21:34,573 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:21:34,574 log 228 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2024-05-29 19:21:34,575 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2668
+WARNING 2024-05-29 19:21:34,575 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2671
+WARNING 2024-05-29 19:21:34,575 basehttp 154 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2665
+WARNING 2024-05-29 19:21:34,575 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+WARNING 2024-05-29 19:21:34,575 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2701
+WARNING 2024-05-29 19:21:34,576 basehttp 154 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2710
+WARNING 2024-05-29 19:21:34,582 log 228 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2024-05-29 19:21:34,582 log 228 Not Found: /js/axios-0.18.0.min.js
+WARNING 2024-05-29 19:21:34,583 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2686
+WARNING 2024-05-29 19:21:34,583 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2683
+WARNING 2024-05-29 19:21:34,592 log 228 Not Found: /js/host.js
+WARNING 2024-05-29 19:21:34,593 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2647
+WARNING 2024-05-29 19:21:34,638 log 228 Not Found: /js/common.js
+WARNING 2024-05-29 19:21:34,639 log 228 Not Found: /js/jquery.pagination.min.js
+WARNING 2024-05-29 19:21:34,640 log 228 Not Found: /js/index.js
+WARNING 2024-05-29 19:21:34,641 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:21:34,641 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2653
+WARNING 2024-05-29 19:21:34,641 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2698
+WARNING 2024-05-29 19:21:34,642 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2650
+WARNING 2024-05-29 19:21:34,642 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+INFO 2024-05-29 19:37:43,622 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:37:47,772 basehttp 154 "GET / HTTP/1.1" 200 11726
+WARNING 2024-05-29 19:37:47,831 log 228 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2024-05-29 19:37:47,832 log 228 Not Found: /common/common.css
+WARNING 2024-05-29 19:37:47,833 log 228 Not Found: /md_css/monokai.css
+WARNING 2024-05-29 19:37:47,834 log 228 Not Found: /common/jquery.pagination.css
+WARNING 2024-05-29 19:37:47,835 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2668
+WARNING 2024-05-29 19:37:47,835 basehttp 154 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2710
+WARNING 2024-05-29 19:37:47,835 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2671
+WARNING 2024-05-29 19:37:47,835 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2701
+WARNING 2024-05-29 19:37:47,836 log 228 Not Found: /js/axios-0.18.0.min.js
+WARNING 2024-05-29 19:37:47,839 log 228 Not Found: /js/vue-2.5.16.js
+WARNING 2024-05-29 19:37:47,839 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2683
+WARNING 2024-05-29 19:37:47,841 basehttp 154 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2665
+WARNING 2024-05-29 19:37:47,842 log 228 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2024-05-29 19:37:47,843 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2686
+WARNING 2024-05-29 19:37:47,849 log 228 Not Found: /js/host.js
+WARNING 2024-05-29 19:37:47,851 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:37:47,851 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2647
+WARNING 2024-05-29 19:37:47,851 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+WARNING 2024-05-29 19:37:47,908 log 228 Not Found: /js/common.js
+WARNING 2024-05-29 19:37:47,908 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2653
+WARNING 2024-05-29 19:37:47,920 log 228 Not Found: /js/index.js
+WARNING 2024-05-29 19:37:47,922 log 228 Not Found: /js/jquery.pagination.min.js
+WARNING 2024-05-29 19:37:47,922 log 228 Not Found: /img/1.jpg
+WARNING 2024-05-29 19:37:47,923 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2650
+WARNING 2024-05-29 19:37:47,923 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2698
+WARNING 2024-05-29 19:37:47,923 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2644
+INFO 2024-05-29 19:41:40,838 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:41:41,978 basehttp 154 "GET / HTTP/1.1" 200 11946
+ERROR 2024-05-29 19:41:42,020 basehttp 154 "GET /static/https://use.fontawesome.com/releases/v5.8.1/css/all.css HTTP/1.1" 500 59
+INFO 2024-05-29 19:41:51,073 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:41:54,507 basehttp 154 "GET / HTTP/1.1" 200 11946
+ERROR 2024-05-29 19:41:54,546 basehttp 154 "GET /static/https://use.fontawesome.com/releases/v5.8.1/css/all.css HTTP/1.1" 500 59
+INFO 2024-05-29 19:42:29,635 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:42:30,533 basehttp 154 "GET / HTTP/1.1" 200 11986
+ERROR 2024-05-29 19:42:30,572 basehttp 154 "GET /static/https://use.fontawesome.com/releases/v5.8.1/css/all.css HTTP/1.1" 500 59
+INFO 2024-05-29 19:44:26,147 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:44:28,528 basehttp 154 "GET / HTTP/1.1" 200 11976
+INFO 2024-05-29 19:46:19,127 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:46:21,432 basehttp 154 "GET / HTTP/1.1" 200 11916
+INFO 2024-05-29 19:47:27,265 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-29 19:47:27,864 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:47:31,283 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-29 19:47:31,847 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:47:39,590 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-29 19:47:40,301 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:51:07,701 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:51:10,695 basehttp 154 "GET / HTTP/1.1" 200 11916
+INFO 2024-05-29 19:51:29,001 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2024-05-29 19:51:29,013 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2024-05-29 19:51:29,947 basehttp 154 "GET /imagecode/?uuid=22585b3d-48f1-4a41-be51-f57bfd1aa3e9 HTTP/1.1" 200 3121
+INFO 2024-05-29 19:51:46,775 views 165 067868
+INFO 2024-05-29 19:51:53,387 basehttp 154 "GET /smscode/?mobile=17740400826&image_code=oac8&uuid=22585b3d-48f1-4a41-be51-f57bfd1aa3e9 HTTP/1.1" 200 63
+INFO 2024-05-29 19:52:03,057 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2024-05-29 19:52:03,067 basehttp 154 "GET / HTTP/1.1" 200 11916

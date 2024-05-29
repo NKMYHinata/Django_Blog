@@ -40,5 +40,8 @@ urlpatterns = [
     # urlconf_module 设置子应用的路由
     # app_name 子应用名称
     # namespace 可以防止不同子应用之间的命名冲突
-    path('', include(('users.urls', 'users'), namespace='users'))
+    path('', include(('users.urls', 'users'), namespace='users')),
+
+    # 首页子应用路由
+    path('', include(('home.urls', 'home'), namespace='home')),
 ]
