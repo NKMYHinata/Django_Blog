@@ -77,14 +77,21 @@ class RegisterView(View):
             return HttpResponseBadRequest('注册失败')
 
         from django.contrib.auth import login
+        # 状态保持
         login(request, user)
         # 4. 返回相应，跳转到指定页面
         # 暂时返回一个注册成功的信息，之后再实现跳转到指定页面
         # return HttpResponse('注册成功，重定向到首页')
 
-        # redirect 进行重定向
+        # redirect 进行重定向到首页
         # reverse 是可以通过namespace获取视图对应的路由
-        return redirect(reverse('home:index'))
+        response = redirect(reverse('home:index'))
+
+        # 设置cookie信息，以方便首页中用户信息的判断与展示
+        response.set_cookie('is_login', True)
+        response.set_cookie('username', user.username, max_age=7*24*3600)
+
+        return response
 
 
 class ImageCodeView(View):
