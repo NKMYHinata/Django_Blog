@@ -56,3 +56,51 @@ INFO 2024-05-29 18:09:11,742 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
 INFO 2024-05-29 18:09:12,614 basehttp 154 "GET /imagecode/?uuid=6dd0afe2-879a-466f-b309-c9408bc194c8 HTTP/1.1" 200 3361
 INFO 2024-05-29 18:09:13,667 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
 INFO 2024-05-29 18:09:13,862 basehttp 154 "GET /imagecode/?uuid=841ac538-1eb9-4b59-acdf-cab700e60a76 HTTP/1.1" 200 3170
+INFO 2024-05-29 18:20:48,652 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 18:20:56,428 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2024-05-29 18:20:58,584 basehttp 154 "GET /imagecode/?uuid=0b0a7195-0082-46b5-b9f9-803dff116a81 HTTP/1.1" 200 3267
+INFO 2024-05-29 18:21:09,802 views 100 429434
+INFO 2024-05-29 18:21:10,164 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=kncv&uuid=0b0a7195-0082-46b5-b9f9-803dff116a81 HTTP/1.1" 200 63
+INFO 2024-05-29 18:31:26,939 basehttp 154 "GET /imagecode/?uuid=c6d9474d-a6c5-43a7-8a7e-9ce2bedd096c HTTP/1.1" 200 3450
+INFO 2024-05-29 18:31:31,753 views 100 111502
+INFO 2024-05-29 18:31:32,277 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=jygf&uuid=c6d9474d-a6c5-43a7-8a7e-9ce2bedd096c HTTP/1.1" 200 63
+INFO 2024-05-29 18:34:09,005 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 18:34:15,589 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2024-05-29 18:34:16,318 basehttp 154 "GET /imagecode/?uuid=a0875b0e-6464-44f4-86c2-0d26e419fa2b HTTP/1.1" 200 3124
+INFO 2024-05-29 18:34:31,235 basehttp 154 "GET /imagecode/?uuid=f96ecafd-d5ea-4cf0-8fb0-c6a6a2c5d943 HTTP/1.1" 200 3202
+INFO 2024-05-29 18:34:36,854 views 100 269841
+INFO 2024-05-29 18:34:37,177 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=lrxg&uuid=f96ecafd-d5ea-4cf0-8fb0-c6a6a2c5d943 HTTP/1.1" 200 63
+INFO 2024-05-29 18:36:08,282 basehttp 154 "GET /imagecode/?uuid=f43ec569-25aa-4f15-81b2-3f32d40a8f2d HTTP/1.1" 200 3018
+INFO 2024-05-29 18:36:10,353 basehttp 154 "GET /imagecode/?uuid=5053a4b5-3e7b-47b4-8ca9-c33a91c672ed HTTP/1.1" 200 3091
+INFO 2024-05-29 18:36:13,094 basehttp 154 "GET /imagecode/?uuid=888bb465-9130-48bf-b5d2-7764d177dca9 HTTP/1.1" 200 3153
+INFO 2024-05-29 18:36:22,073 views 100 587110
+INFO 2024-05-29 18:36:22,398 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=pzuu&uuid=888bb465-9130-48bf-b5d2-7764d177dca9 HTTP/1.1" 200 63
+INFO 2024-05-29 18:40:17,919 autoreload 203 D:\coder\Pycharm\Django_Blog\libs\yuntongxun\sms.py changed, reloading.
+INFO 2024-05-29 18:40:18,552 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 18:53:44,074 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 18:53:50,007 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2024-05-29 18:53:51,179 basehttp 154 "GET /imagecode/?uuid=d358d954-f2dc-4fcf-b713-839d716a3896 HTTP/1.1" 200 3257
+INFO 2024-05-29 18:54:02,151 views 156 716943
+INFO 2024-05-29 18:54:02,531 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=wd6a&uuid=d358d954-f2dc-4fcf-b713-839d716a3896 HTTP/1.1" 200 63
+WARNING 2024-05-29 18:54:27,697 log 228 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2024-05-29 18:54:27,698 basehttp 154 "POST /register/ HTTP/1.1" 403 2513
+INFO 2024-05-29 18:54:31,782 basehttp 154 "GET /imagecode/?uuid=1fe67bf3-fcbe-45d0-9d03-baeac0ab1651 HTTP/1.1" 200 3330
+INFO 2024-05-29 18:54:33,208 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2024-05-29 18:54:33,479 basehttp 154 "GET /imagecode/?uuid=ef5d4428-be7d-4b1d-91a4-d9efdda83063 HTTP/1.1" 200 3548
+INFO 2024-05-29 18:56:30,130 views 156 010393
+INFO 2024-05-29 18:56:30,584 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=rixh&uuid=ef5d4428-be7d-4b1d-91a4-d9efdda83063 HTTP/1.1" 200 63
+INFO 2024-05-29 18:57:27,162 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2024-05-29 18:57:27,172 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2024-05-29 19:05:36,166 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:05:46,299 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:06:06,340 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2024-05-29 19:06:07,084 basehttp 154 "GET /imagecode/?uuid=42a16e54-158f-4d66-a5f3-90f93f53bd3f HTTP/1.1" 200 2819
+INFO 2024-05-29 19:06:30,116 basehttp 154 "GET /imagecode/?uuid=18e943fc-fdee-4312-8ac7-92908b9caf1d HTTP/1.1" 200 3366
+INFO 2024-05-29 19:06:35,835 views 156 583738
+INFO 2024-05-29 19:06:36,281 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=qg4r&uuid=18e943fc-fdee-4312-8ac7-92908b9caf1d HTTP/1.1" 200 63
+INFO 2024-05-29 19:11:37,357 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 19:11:42,524 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2024-05-29 19:11:43,526 basehttp 154 "GET /imagecode/?uuid=2901d35b-bba7-4b6c-8956-1959e4c7da10 HTTP/1.1" 200 3554
+INFO 2024-05-29 19:11:54,964 views 159 029121
+INFO 2024-05-29 19:11:55,348 basehttp 154 "GET /smscode/?mobile=17740400824&image_code=kl6f&uuid=2901d35b-bba7-4b6c-8956-1959e4c7da10 HTTP/1.1" 200 63
+INFO 2024-05-29 19:12:02,542 basehttp 154 "POST /register/ HTTP/1.1" 200 33
