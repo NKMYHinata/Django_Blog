@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'nkmyhinata.mysql.rds.aliyuncs.com',
+        'HOST': '127.0.0.1',
         'PORT': 3306,
-        'USER': 'blog_server',
-        'PASSWORD': 'Qwer1234',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'NAME': 'django_blog'
     },
 }
@@ -133,7 +133,7 @@ CACHES = {
     "default": {
         # 默认
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:Hanser123$%^@43.134.124.174:16379/0",
+        "LOCATION": "redis://@127.0.0.1:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -141,7 +141,7 @@ CACHES = {
     "session": {
         # session
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:Hanser123$%^@43.134.124.174:16379/1",
+        "LOCATION": "redis://@127.0.0.1:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
