@@ -3,6 +3,7 @@ from django.urls import reverse
 from django.views import View
 from home.models import ArticleCategory, Article, Comment
 from django.http.response import HttpResponseNotFound
+from django.core.paginator import Paginator, EmptyPage
 
 
 # Create your views here.
@@ -72,6 +73,12 @@ class DetailView(View):
         1. 接收文章id
         2. 根据文章id查询文章数据
         3. 查询分类数据
+
+        5. 获取分页请求参数
+        6. 根据文章信息查询评论
+        7. 创建分页器
+        8. 进行分页处理
+
         4. 组织模板数据
 
         :param request:
@@ -94,20 +101,41 @@ class DetailView(View):
         # 3
         categories = ArticleCategory.objects.all()
 
-
         # 查询浏览量最高的10个文章数据
 
         hot_articles = Article.objects.order_by('-total_views')[:9]
+
+        # 5. 获取分页请求参数
+        page_size = request.GET.get('page_size', 10)
+        page_num = request.GET.get('page_num', 1)
+        # 6. 根据文章信息查询评论
+        comments = Comment.objects.filter(article=article).order_by('-created')
+        # 获取评论总数
+        total_count = comments.count()
+        # 7. 创建分页器
+        paginator = Paginator(comments, page_size)
+        # 8. 进行分页处理
+        try:
+            page_comments = paginator.page(page_num)
+        except EmptyPage:
+            return HttpResponseNotFound('empty page')
+        # 获取总页数
+        total_page = paginator.num_pages
 
         # 4
         context = {
             'categories': categories,
             'category': article.category,
             'article': article,
-            'hot_article': hot_articles
+            'hot_articles': hot_articles,
+            'total_count': total_count,
+            'comments': page_comments,
+            'page_size': page_size,
+            'total_page': total_page,
+            'page_num': page_num
         }
 
-        return render(request, 'detail.html', context)
+        return render(request, 'detail.html', context=context)
 
     def post(self, request):
         """
