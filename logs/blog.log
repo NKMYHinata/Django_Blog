@@ -472,3 +472,18 @@ INFO 2024-05-30 11:53:18,391 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200
 INFO 2024-05-30 11:53:18,392 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
 INFO 2024-05-30 11:53:21,815 basehttp 154 "GET /login/ HTTP/1.1" 200 3218
 INFO 2024-05-30 11:53:21,854 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2024-05-30 12:00:21,495 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 12:00:22,344 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 12:03:15,351 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 12:03:29,732 basehttp 154 "GET /forgetpassword HTTP/1.1" 301 0
+INFO 2024-05-30 12:03:29,755 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5214
+INFO 2024-05-30 12:03:29,983 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2024-05-30 12:08:16,691 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 12:08:18,566 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5182
+INFO 2024-05-30 12:08:19,378 basehttp 154 "GET /imagecode/?uuid=33602d5b-8387-410f-b786-a49b2cfadbac HTTP/1.1" 200 3685
+INFO 2024-05-30 12:08:21,166 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5182
+INFO 2024-05-30 12:08:21,417 basehttp 154 "GET /imagecode/?uuid=a1403dfd-6b5a-4360-a541-0d2fda114557 HTTP/1.1" 200 3483
+INFO 2024-05-30 12:09:24,777 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 12:09:28,996 basehttp 154 "GET /login/ HTTP/1.1" 200 3204
+INFO 2024-05-30 12:09:31,249 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5182
+INFO 2024-05-30 12:09:31,947 basehttp 154 "GET /imagecode/?uuid=5f6da2ec-a086-43a6-aa52-3883a82e84a5 HTTP/1.1" 200 3259
