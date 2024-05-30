@@ -816,3 +816,8 @@ INFO 2024-05-30 15:20:50,347 autoreload 578 Watching for file changes with StatR
 INFO 2024-05-30 15:20:54,822 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
 INFO 2024-05-30 15:20:55,377 autoreload 578 Watching for file changes with StatReloader
 INFO 2024-05-30 15:25:18,946 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:25:25,729 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5995
+INFO 2024-05-30 15:32:46,640 autoreload 203 D:\coder\Pycharm\Django_Blog\home\models.py changed, reloading.
+INFO 2024-05-30 15:32:47,244 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:32:51,725 autoreload 203 D:\coder\Pycharm\Django_Blog\home\models.py changed, reloading.
+INFO 2024-05-30 15:32:52,296 autoreload 578 Watching for file changes with StatReloader
