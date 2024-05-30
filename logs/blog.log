@@ -893,3 +893,12 @@ INFO 2024-05-30 16:26:07,982 basehttp 154 "GET /static/js/jquery-1.12.4.min.js H
 INFO 2024-05-30 16:26:07,984 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
 INFO 2024-05-30 16:26:08,032 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
 INFO 2024-05-30 16:26:13,589 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6133
+INFO 2024-05-30 16:32:18,751 autoreload 203 D:\coder\Pycharm\Django_Blog\home\views.py changed, reloading.
+INFO 2024-05-30 16:32:19,326 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 16:42:21,582 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 16:42:26,624 basehttp 154 "GET / HTTP/1.1" 200 13007
+INFO 2024-05-30 16:42:28,789 basehttp 154 "GET / HTTP/1.1" 200 13007
+INFO 2024-05-30 16:42:30,079 basehttp 154 "GET /?cat_id=3 HTTP/1.1" 200 13007
+INFO 2024-05-30 16:42:31,341 basehttp 154 "GET /?cat_id=4 HTTP/1.1" 200 13007
+INFO 2024-05-30 16:42:32,940 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 13007
+INFO 2024-05-30 16:42:33,941 basehttp 154 "GET /?cat_id=3 HTTP/1.1" 200 13007
