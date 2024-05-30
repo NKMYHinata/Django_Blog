@@ -694,3 +694,7 @@ INFO 2024-05-30 14:18:26,260 basehttp 154 "GET /static/ckeditor/ckeditor/content
 INFO 2024-05-30 14:19:30,554 autoreload 578 Watching for file changes with StatReloader
 INFO 2024-05-30 14:19:32,888 basehttp 154 "GET / HTTP/1.1" 200 11848
 INFO 2024-05-30 14:19:35,040 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2024-05-30 14:27:20,763 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:27:21,347 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:27:23,686 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:27:24,276 autoreload 578 Watching for file changes with StatReloader
