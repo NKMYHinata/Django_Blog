@@ -1533,3 +1533,4 @@ INFO 2024-05-30 18:06:28,034 basehttp 154 "GET /media/article/20240530/IMG_01612
 INFO 2024-05-30 18:06:29,640 basehttp 154 "GET /detail/?id=37 HTTP/1.1" 200 10979
 INFO 2024-05-30 18:42:20,445 autoreload 203 D:\coder\Pycharm\Django_Blog\home\models.py changed, reloading.
 INFO 2024-05-30 18:42:21,018 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 19:16:13,551 autoreload 578 Watching for file changes with StatReloader
