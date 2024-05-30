@@ -1456,3 +1456,65 @@ INFO 2024-05-30 17:50:53,570 basehttp 154 "GET /media/article/20240530/IMG_01612
 INFO 2024-05-30 17:50:53,575 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_gyzYXeu.JPG HTTP/1.1" 304 0
 INFO 2024-05-30 17:50:53,576 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_AzGqgQ0.JPG HTTP/1.1" 304 0
 INFO 2024-05-30 17:50:54,958 basehttp 154 "GET /detail/?id=37 HTTP/1.1" 200 10486
+INFO 2024-05-30 17:52:40,853 autoreload 203 D:\coder\Pycharm\Django_Blog\home\views.py changed, reloading.
+INFO 2024-05-30 17:52:41,522 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 17:52:48,166 autoreload 203 D:\coder\Pycharm\Django_Blog\home\views.py changed, reloading.
+INFO 2024-05-30 17:52:48,723 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 17:52:53,210 autoreload 203 D:\coder\Pycharm\Django_Blog\home\views.py changed, reloading.
+INFO 2024-05-30 17:52:53,853 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 17:55:01,810 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 17:55:07,861 basehttp 154 "GET /detail/?id=38 HTTP/1.1" 200 10486
+ERROR 2024-05-30 17:55:11,618 basehttp 154 "GET /detail/?id=9999 HTTP/1.1" 500 59
+INFO 2024-05-30 17:56:46,844 autoreload 578 Watching for file changes with StatReloader
+ERROR 2024-05-30 17:56:48,838 basehttp 154 "GET /detail/?id=9999 HTTP/1.1" 500 59
+ERROR 2024-05-30 17:56:52,572 basehttp 154 "GET /detail/?id=1000 HTTP/1.1" 500 59
+INFO 2024-05-30 17:57:06,552 basehttp 154 "GET / HTTP/1.1" 200 21626
+INFO 2024-05-30 17:57:06,613 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2024-05-30 17:57:06,621 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2024-05-30 17:57:06,623 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2024-05-30 17:57:06,624 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2024-05-30 17:57:06,628 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-05-30 17:57:06,629 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2024-05-30 17:57:06,629 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_3qOGTKA.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:06,630 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_o3HmDUh.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:06,630 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-05-30 17:57:06,689 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_hdBigwC.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:06,689 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_3Ps3FCB.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:06,696 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2024-05-30 17:57:06,697 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_ZFf5xaU.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:06,702 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-05-30 17:57:06,707 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2024-05-30 17:57:06,711 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2024-05-30 17:57:07,011 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_P36blEh.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:07,015 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_mfS2JrC.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:07,021 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_cqRUPh5.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:07,025 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_gyzYXeu.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:07,029 basehttp 154 "GET /media/article/20240530/IMG_016120211109-191824_AzGqgQ0.JPG HTTP/1.1" 200 237940
+INFO 2024-05-30 17:57:08,580 basehttp 154 "GET /detail/?id=37 HTTP/1.1" 200 10486
+INFO 2024-05-30 17:57:08,609 basehttp 154 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2024-05-30 17:57:08,610 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2024-05-30 17:57:09,013 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2024-05-30 17:57:09,018 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2024-05-30 17:57:09,047 basehttp 154 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2024-05-30 17:57:09,112 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2024-05-30 17:57:09,121 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2024-05-30 17:57:09,147 basehttp 154 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2024-05-30 17:57:09,155 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2024-05-30 17:57:09,159 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2024-05-30 17:57:09,160 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2024-05-30 17:57:09,167 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2024-05-30 17:57:09,167 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2024-05-30 17:57:09,168 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2024-05-30 17:57:09,168 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2024-05-30 17:57:09,168 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2024-05-30 17:57:09,175 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2024-05-30 17:57:09,189 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2024-05-30 17:57:09,190 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2024-05-30 17:57:09,195 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2024-05-30 17:57:09,195 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+ERROR 2024-05-30 17:57:11,752 basehttp 154 "GET /detail/?id=377 HTTP/1.1" 500 59
+INFO 2024-05-30 17:57:29,381 autoreload 578 Watching for file changes with StatReloader
+ERROR 2024-05-30 17:57:34,900 basehttp 154 "GET /detail/?id=377 HTTP/1.1" 500 59
+INFO 2024-05-30 18:00:05,083 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 18:00:08,562 basehttp 154 "GET /detail/?id=377 HTTP/1.1" 200 1140
+INFO 2024-05-30 18:00:08,590 basehttp 154 "GET /static/img/404.png HTTP/1.1" 200 107422

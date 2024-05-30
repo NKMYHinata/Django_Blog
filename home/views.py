@@ -83,8 +83,8 @@ class DetailView(View):
         # 2
         try:
             article = Article.objects.get(id=id)
-        except ArticleCategory.DoesNotExist:
-            return
+        except Article.DoesNotExist:
+            return render(request, '404.html')
 
         # 3
         categories = ArticleCategory.objects.all()
