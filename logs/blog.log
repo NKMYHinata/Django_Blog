@@ -586,3 +586,77 @@ INFO 2024-05-30 13:31:39,425 autoreload 203 D:\coder\Pycharm\Django_Blog\users\v
 INFO 2024-05-30 13:31:40,073 autoreload 578 Watching for file changes with StatReloader
 INFO 2024-05-30 13:40:13,523 autoreload 578 Watching for file changes with StatReloader
 INFO 2024-05-30 13:40:15,717 basehttp 154 "GET /center/ HTTP/1.1" 200 4172
+INFO 2024-05-30 13:44:13,057 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:44:13,619 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:55:49,524 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:55:51,612 basehttp 154 "GET /center/ HTTP/1.1" 200 4172
+WARNING 2024-05-30 13:55:57,979 log 228 Forbidden (CSRF token missing or incorrect.): /center/
+WARNING 2024-05-30 13:55:57,979 basehttp 154 "POST /center/ HTTP/1.1" 403 2513
+INFO 2024-05-30 13:56:21,191 autoreload 578 Watching for file changes with StatReloader
+WARNING 2024-05-30 13:56:41,461 log 228 Forbidden (CSRF token missing or incorrect.): /center/
+WARNING 2024-05-30 13:56:41,462 basehttp 154 "POST /center/ HTTP/1.1" 403 2513
+INFO 2024-05-30 13:56:52,354 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:56:52,376 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3204
+INFO 2024-05-30 13:56:52,463 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2024-05-30 13:56:52,473 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-05-30 13:56:52,474 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2024-05-30 13:56:52,474 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-05-30 13:56:52,474 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2024-05-30 13:56:52,479 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-05-30 13:56:55,518 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:56:55,783 basehttp 154 "GET /center/ HTTP/1.1" 200 4310
+INFO 2024-05-30 13:56:55,826 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2024-05-30 13:56:55,829 basehttp 154 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2024-05-30 13:57:22,095 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:57:22,335 basehttp 154 "GET /center/ HTTP/1.1" 200 4334
+WARNING 2024-05-30 13:57:22,363 log 228 Not Found: /center/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 13:57:22,363 basehttp 154 "GET /center/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3457
+WARNING 2024-05-30 13:57:22,433 log 228 Not Found: /center/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 13:57:22,434 basehttp 154 "GET /center/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3457
+INFO 2024-05-30 13:57:27,159 basehttp 154 "GET /center/ HTTP/1.1" 200 4334
+WARNING 2024-05-30 13:57:27,187 log 228 Not Found: /center/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 13:57:27,188 basehttp 154 "GET /center/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3457
+WARNING 2024-05-30 13:57:27,262 log 228 Not Found: /center/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 13:57:27,262 basehttp 154 "GET /center/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3457
+WARNING 2024-05-30 13:59:56,476 log 228 Not Found: /center/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 13:59:56,476 basehttp 154 "GET /center/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3457
+INFO 2024-05-30 14:00:50,537 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:00:51,170 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:00:55,652 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:00:56,203 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:01:03,923 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:01:04,492 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:01:11,742 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:01:19,653 basehttp 154 "GET /center/ HTTP/1.1" 200 4341
+WARNING 2024-05-30 14:01:19,675 log 228 Not Found: /media/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 14:01:19,675 basehttp 154 "GET /media/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3454
+WARNING 2024-05-30 14:01:19,756 log 228 Not Found: /media/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 14:01:19,757 basehttp 154 "GET /media/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3454
+INFO 2024-05-30 14:01:21,071 basehttp 154 "GET /center/ HTTP/1.1" 200 4341
+WARNING 2024-05-30 14:01:21,093 log 228 Not Found: /media/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 14:01:21,093 basehttp 154 "GET /media/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3454
+WARNING 2024-05-30 14:01:21,173 log 228 Not Found: /media/avatar/20240530/IMG_908520220507-200054.JPG
+WARNING 2024-05-30 14:01:21,173 basehttp 154 "GET /media/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 404 3454
+INFO 2024-05-30 14:01:50,762 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\urls.py changed, reloading.
+INFO 2024-05-30 14:01:51,394 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:01:59,143 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\urls.py changed, reloading.
+INFO 2024-05-30 14:01:59,705 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:04:02,421 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:04:04,731 basehttp 154 "GET /center/ HTTP/1.1" 200 4341
+INFO 2024-05-30 14:04:04,758 basehttp 154 "GET /media/avatar/20240530/IMG_908520220507-200054.JPG HTTP/1.1" 200 10132
+INFO 2024-05-30 14:04:24,632 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 14:04:24,869 basehttp 154 "GET /center/ HTTP/1.1" 200 4326
+INFO 2024-05-30 14:04:24,900 basehttp 154 "GET /media/avatar/20240530/IMG_9286.GIF HTTP/1.1" 200 704614
+INFO 2024-05-30 14:04:27,303 basehttp 154 "GET /center/ HTTP/1.1" 200 4326
+INFO 2024-05-30 14:04:27,328 basehttp 154 "GET /media/avatar/20240530/IMG_9286.GIF HTTP/1.1" 304 0
+INFO 2024-05-30 14:06:13,874 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 14:06:14,110 basehttp 154 "GET /center/ HTTP/1.1" 200 4326
+INFO 2024-05-30 14:06:14,142 basehttp 154 "GET /media/avatar/20240530/IMG_9286.GIF HTTP/1.1" 304 0
+INFO 2024-05-30 14:08:05,439 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:08:07,282 basehttp 154 "GET /center/ HTTP/1.1" 200 4326
+INFO 2024-05-30 14:08:07,321 basehttp 154 "GET /media/avatar/20240530/IMG_9286.GIF HTTP/1.1" 304 0
+INFO 2024-05-30 14:08:11,051 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 14:08:11,280 basehttp 154 "GET /center/ HTTP/1.1" 200 4332
+INFO 2024-05-30 14:08:38,350 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 14:08:38,604 basehttp 154 "GET /center/ HTTP/1.1" 200 4332
+INFO 2024-05-30 14:08:38,634 basehttp 154 "GET /media/avatar/20240530/IMG_5585.PNG HTTP/1.1" 200 298383
