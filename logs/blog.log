@@ -660,3 +660,37 @@ INFO 2024-05-30 14:08:11,280 basehttp 154 "GET /center/ HTTP/1.1" 200 4332
 INFO 2024-05-30 14:08:38,350 basehttp 154 "POST /center/ HTTP/1.1" 302 0
 INFO 2024-05-30 14:08:38,604 basehttp 154 "GET /center/ HTTP/1.1" 200 4332
 INFO 2024-05-30 14:08:38,634 basehttp 154 "GET /media/avatar/20240530/IMG_5585.PNG HTTP/1.1" 200 298383
+INFO 2024-05-30 14:12:20,176 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:12:25,848 basehttp 154 "GET /writeblog HTTP/1.1" 301 0
+INFO 2024-05-30 14:12:25,861 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5684
+INFO 2024-05-30 14:12:25,920 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2024-05-30 14:12:25,921 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2024-05-30 14:12:25,922 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+WARNING 2024-05-30 14:12:25,999 log 228 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2024-05-30 14:12:25,999 basehttp 154 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3726
+WARNING 2024-05-30 14:12:26,010 log 228 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2024-05-30 14:12:26,011 log 228 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2024-05-30 14:12:26,011 basehttp 154 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3780
+WARNING 2024-05-30 14:12:26,012 basehttp 154 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3738
+INFO 2024-05-30 14:17:29,589 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:17:36,167 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5662
+WARNING 2024-05-30 14:17:36,327 log 228 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2024-05-30 14:17:36,327 basehttp 154 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3726
+WARNING 2024-05-30 14:17:36,339 log 228 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2024-05-30 14:17:36,341 log 228 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2024-05-30 14:17:36,341 basehttp 154 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3738
+WARNING 2024-05-30 14:17:36,341 basehttp 154 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3780
+INFO 2024-05-30 14:18:24,428 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:18:26,094 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2024-05-30 14:18:26,210 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2024-05-30 14:18:26,220 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2024-05-30 14:18:26,220 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2024-05-30 14:18:26,226 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2024-05-30 14:18:26,236 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2024-05-30 14:18:26,236 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2024-05-30 14:18:26,237 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2024-05-30 14:18:26,254 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2024-05-30 14:18:26,260 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2024-05-30 14:19:30,554 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:19:32,888 basehttp 154 "GET / HTTP/1.1" 200 11848
+INFO 2024-05-30 14:19:35,040 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
