@@ -8,6 +8,7 @@ from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 from django.shortcuts import redirect
+from django.contrib.auth import logout
 
 from libs.captcha.captcha import captcha
 from libs.yuntongxun.sms import CCP
@@ -240,4 +241,16 @@ class LoginView(View):
             response.set_cookie('username', user.username, max_age=14 * 24 * 3600)
 
         # 7
+        return response
+
+
+class LogoutView(View):
+
+    def get(self, request):
+        # 1. 进行session数据删除
+        logout(request)
+        # 2. 删除部分cookie数据
+        response = redirect(reverse('home:index'))
+        response.delete_cookie('is_login')
+        # 3. 跳转首页
         return response
