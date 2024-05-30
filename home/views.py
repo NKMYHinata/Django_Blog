@@ -62,3 +62,38 @@ class IndexView(View):
         }
 
         return render(request, 'index.html', context=context)
+
+
+class DetailView(View):
+
+    def get(self, request):
+        """
+        1. 接收文章id
+        2. 根据文章id查询文章数据
+        3. 查询分类数据
+        4. 组织模板数据
+
+        :param request:
+        :return:
+        """
+
+        # 1
+        id = request.GET.get('id')
+
+        # 2
+        try:
+            article = Article.objects.get(id=id)
+        except ArticleCategory.DoesNotExist:
+            return
+
+        # 3
+        categories = ArticleCategory.objects.all()
+
+        # 4
+        context = {
+            'categories': categories,
+            'category': article.category,
+            'article': article
+        }
+
+        return render(request, 'detail.html', context)

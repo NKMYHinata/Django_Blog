@@ -93,7 +93,7 @@
                 </span>
                     <!-- 标题 -->
                     <h4>
-                        <b><a href="detail.html" style="color: black;">{{ article.title }}</a></b>
+                        <b><a href="{% url 'home:detail' %}?id={{ article.id }}" style="color: black;">{{ article.title }}</a></b>
                     </h4>
                     <!-- 摘要 -->
                     <div>
@@ -139,7 +139,7 @@
             currentPage: {{ page_num }},
             totalPage: {{ total_page }},
             callback: function (current) {
-
+                {#?cat_id=3&page_size=10&page_num=2#}
                 location.href = '/?cat_id={{ category.id }}&page_size={{ page_size }}&page_num=' + current;
             }
         })

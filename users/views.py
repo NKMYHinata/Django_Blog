@@ -434,6 +434,7 @@ class WriteBlogView(LoginRequiredMixin, View):
         # 3
         try:
             article = Article.objects.create(
+                title=title,
                 author=user,
                 avatar=avatar,
                 category=category,
