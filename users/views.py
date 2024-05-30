@@ -255,7 +255,78 @@ class LogoutView(View):
         # 3. 跳转首页
         return response
 
+
 class ForgetPasswordView(View):
     def get(self, request):
 
         return render(request, 'forget_password.html')
+
+    def post(self, request):
+        """
+        1. 接收数据
+        2. 验证数据
+            2.1 判断参数齐全
+            2.2 手机号符合规则
+            2.3 密码符合规则
+            2.4 确认密码和确认密码是否一致
+            2.5 判断短信验证码是否正确
+        3. 根据手机号进行用户信息查询
+        4. 如果手机号查询出用户信息，则进行密码修改
+        5. 如果手机号没有查询出用户信息，则进行新用户的创建
+        6. 跳转页面到登录页面
+        7. 返回相应
+
+        :param request:
+        :return:
+        """
+
+        # 1
+        mobile = request.POST.get('mobile')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+        smscode = request.POST.get('sms_code')
+
+        # 2.1
+        if not all([mobile, password, password2, smscode]):
+            return HttpResponseBadRequest('参数不全')
+
+        # 2.2
+        if not re.match(r'^1[3-9]\d{9}', mobile):
+            return HttpResponseBadRequest('手机号不符合规则')
+
+        # 2.3
+        if not re.match(r'^[0-9A-Za-z]{8,20}', password):
+            return HttpResponseBadRequest('密码不符合规则')
+
+        # 2.4
+        if password != password2:
+            return HttpResponseBadRequest('密码不一致')
+
+        # 2.5
+        redis_conn = get_redis_connection('default')
+        redis_sms_code = redis_conn.get('sms:%s' % mobile)
+        if redis_sms_code is None:
+            return HttpResponseBadRequest('短信验证码过期')
+        if redis_sms_code.decode() != smscode:
+            return HttpResponseBadRequest('短信验证码错误')
+
+        # 3
+        try:
+            user = User.objects.get(mobile=mobile)
+        except User.DoesNotExist:
+            # 5
+            try:
+                User.objects.create_user(username=mobile,
+                                         mobile=mobile,
+                                         password=password)
+            except Exception:
+                return HttpResponseBadRequest('修改失败，请稍后再试')
+        else:
+            # 4
+            user.set_password(password)
+            # 注意保存用户信息
+            user.save()
+        # 6
+        response = redirect(reverse('users:login'))
+        # 7
+        return response
