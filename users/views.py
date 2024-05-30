@@ -342,4 +342,16 @@ class ForgetPasswordView(View):
 # 在setting中修改跳转页面
 class UserCenterView(LoginRequiredMixin, View):
     def get(self, request):
-        return render(request, 'center.html')
+        # 获取用户信息
+        user = request.user
+        # 组织获取用户信息
+        context = {
+            'username': user.username,
+            'mobile': user.mobile,
+            'avatar': user.avatar.url if user.avatar else None,
+            'user_desc': user.user_desc
+        }
+
+        return render(request, 'center.html', context=context)
+
+

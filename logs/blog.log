@@ -580,3 +580,9 @@ INFO 2024-05-30 13:29:52,169 basehttp 154 "GET /center/ HTTP/1.1" 302 0
 INFO 2024-05-30 13:29:52,182 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3204
 INFO 2024-05-30 13:29:54,436 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
 INFO 2024-05-30 13:29:54,671 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2024-05-30 13:31:34,363 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:31:34,940 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:31:39,425 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:31:40,073 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:40:13,523 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:40:15,717 basehttp 154 "GET /center/ HTTP/1.1" 200 4172
