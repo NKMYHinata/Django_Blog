@@ -338,3 +338,63 @@ INFO 2024-05-29 20:25:19,158 basehttp 154 "POST /register/ HTTP/1.1" 302 0
 INFO 2024-05-29 20:25:19,168 basehttp 154 "GET / HTTP/1.1" 200 11916
 INFO 2024-05-29 20:31:32,239 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
 INFO 2024-05-29 20:31:32,822 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 20:33:17,661 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-29 20:33:18,310 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 20:35:56,973 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 20:36:06,961 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2024-05-29 20:36:06,975 basehttp 154 "GET /login/ HTTP/1.1" 200 3086
+INFO 2024-05-29 20:36:07,026 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2024-05-29 20:40:29,983 autoreload 578 Watching for file changes with StatReloader
+ERROR 2024-05-29 20:40:32,335 basehttp 154 "GET /login/ HTTP/1.1" 500 59
+INFO 2024-05-29 20:51:13,150 autoreload 578 Watching for file changes with StatReloader
+ERROR 2024-05-29 20:51:16,202 basehttp 154 "GET /login/ HTTP/1.1" 500 59
+INFO 2024-05-29 20:54:23,110 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-29 20:54:23,781 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 20:54:49,429 basehttp 154 "GET / HTTP/1.1" 200 11916
+ERROR 2024-05-29 20:54:53,388 basehttp 154 "GET /login/ HTTP/1.1" 500 59
+ERROR 2024-05-29 20:55:02,096 basehttp 154 "GET /login/ HTTP/1.1" 500 59
+INFO 2024-05-29 20:57:15,111 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-29 20:57:16,397 basehttp 154 "GET /login/ HTTP/1.1" 200 3076
+INFO 2024-05-29 20:57:49,785 basehttp 154 "GET /register/ HTTP/1.1" 200 5329
+INFO 2024-05-29 20:57:50,859 basehttp 154 "GET /imagecode/?uuid=9b16d4cc-5123-413c-83b7-53efb6b28404 HTTP/1.1" 200 2826
+INFO 2024-05-30 11:06:16,734 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 11:06:21,560 basehttp 154 "GET / HTTP/1.1" 200 11916
+INFO 2024-05-30 11:06:28,894 basehttp 154 "GET /login/ HTTP/1.1" 200 3076
+WARNING 2024-05-30 11:06:38,291 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2024-05-30 11:06:38,292 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2024-05-30 11:06:55,644 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 11:06:59,781 basehttp 154 "GET / HTTP/1.1" 200 11916
+INFO 2024-05-30 11:07:04,577 basehttp 154 "GET /login/ HTTP/1.1" 200 3218
+WARNING 2024-05-30 11:07:06,331 log 228 Bad Request: /login/
+WARNING 2024-05-30 11:07:06,332 basehttp 154 "POST /login/ HTTP/1.1" 400 24
+INFO 2024-05-30 11:09:13,597 autoreload 203 D:\coder\Pycharm\Django_Blog\users\models.py changed, reloading.
+INFO 2024-05-30 11:09:14,147 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 11:09:24,034 autoreload 203 D:\coder\Pycharm\Django_Blog\users\models.py changed, reloading.
+INFO 2024-05-30 11:09:24,616 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 11:09:42,600 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 11:09:44,339 basehttp 154 "GET /login/ HTTP/1.1" 200 3218
+INFO 2024-05-30 11:09:46,594 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-30 11:09:46,601 basehttp 154 "GET / HTTP/1.1" 200 11916
+INFO 2024-05-30 11:11:14,978 basehttp 154 "GET /login/ HTTP/1.1" 200 3218
+WARNING 2024-05-30 11:11:42,625 log 228 Not Found: /favicon.ico
+WARNING 2024-05-30 11:11:42,625 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2817
+WARNING 2024-05-30 11:11:55,895 log 228 Forbidden (CSRF cookie not set.): /login/
+WARNING 2024-05-30 11:11:55,895 basehttp 154 "POST /login/ HTTP/1.1" 403 2868
+INFO 2024-05-30 11:13:18,243 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 11:13:23,454 basehttp 154 "GET /login/ HTTP/1.1" 200 3218
+INFO 2024-05-30 11:13:23,511 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2024-05-30 11:13:23,512 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2024-05-30 11:13:23,518 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2024-05-30 11:13:23,527 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2024-05-30 11:13:23,528 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2024-05-30 11:13:23,529 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2024-05-30 11:13:27,849 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-30 11:13:27,865 basehttp 154 "GET / HTTP/1.1" 200 11916
+INFO 2024-05-30 11:13:27,903 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2024-05-30 11:13:27,908 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2024-05-30 11:13:27,908 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2024-05-30 11:13:27,910 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2024-05-30 11:13:27,910 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2024-05-30 11:13:27,911 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2024-05-30 11:13:27,961 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2024-05-30 11:13:44,013 basehttp 154 "GET / HTTP/1.1" 200 11916
