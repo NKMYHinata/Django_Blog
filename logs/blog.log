@@ -809,3 +809,10 @@ INFO 2024-05-30 15:17:50,093 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
 INFO 2024-05-30 15:18:12,493 basehttp 154 "GET / HTTP/1.1" 200 11848
 INFO 2024-05-30 15:18:14,698 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
 INFO 2024-05-30 15:18:21,280 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2024-05-30 15:20:40,419 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 15:20:41,009 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:20:49,797 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 15:20:50,347 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:20:54,822 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 15:20:55,377 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:25:18,946 autoreload 578 Watching for file changes with StatReloader

@@ -10,6 +10,7 @@ from django_redis import get_redis_connection
 from django.shortcuts import redirect
 from django.contrib.auth import logout
 from django.contrib.auth.mixins import LoginRequiredMixin
+from home.models import ArticleCategory
 
 from libs.captcha.captcha import captcha
 from libs.yuntongxun.sms import CCP
@@ -390,7 +391,13 @@ class UserCenterView(LoginRequiredMixin, View):
         # 5
         return response
 
-class WriteBlogView(View):
-    def get(self, request):
 
-        return render(request, 'write_blog.html')
+class WriteBlogView(LoginRequiredMixin, View):
+    def get(self, request):
+        # 查询所有分类模型
+        categories = ArticleCategory.objects.all()
+        context = {
+            'categories': categories
+        }
+
+        return render(request, 'write_blog.html', context=context)
