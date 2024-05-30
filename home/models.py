@@ -25,6 +25,7 @@ class ArticleCategory(models.Model):
         verbose_name_plural = verbose_name  #
 
 
+# 文章模型
 class Article(models.Model):
     # 1. 作者
     # 参数on_delete就是当user表中的数据删除之后，文章信息也同步删除
@@ -60,3 +61,23 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+
+# 评论模型
+class Comment(models.Model):
+    # 评论内容
+    content = models.TextField()
+    # 评论文章
+    article = models.ForeignKey(Article, on_delete=models.SET_NULL, null=True)
+    # 评论用户
+    user = models.ForeignKey('users.User', on_delete=models.SET_NULL, null=True)
+    # 评论时间
+    created = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.article.title
+
+    class Meta:
+        db_table = 'tb_comment'
+        verbose_name = '评论管理'
+        verbose_name_plural = verbose_name
