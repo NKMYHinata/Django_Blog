@@ -698,3 +698,114 @@ INFO 2024-05-30 14:27:20,763 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\se
 INFO 2024-05-30 14:27:21,347 autoreload 578 Watching for file changes with StatReloader
 INFO 2024-05-30 14:27:23,686 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
 INFO 2024-05-30 14:27:24,276 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:30:53,485 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:30:54,056 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2024-05-30 14:30:54,343 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2024-05-30 14:30:54,674 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 59
+ERROR 2024-05-30 14:30:58,732 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 59
+INFO 2024-05-30 14:31:10,810 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2024-05-30 14:31:11,109 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 59
+INFO 2024-05-30 14:31:19,185 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:31:23,968 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2024-05-30 14:31:24,273 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 500 59
+INFO 2024-05-30 14:36:27,641 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:36:28,196 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:37:03,851 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:37:04,436 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:37:08,924 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:37:09,467 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:37:18,254 autoreload 203 D:\coder\Pycharm\Django_Blog\blog\settings.py changed, reloading.
+INFO 2024-05-30 14:37:18,780 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:40:29,119 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 14:40:34,075 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-30 14:40:34,689 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1963
+INFO 2024-05-30 14:40:34,735 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2024-05-30 14:40:34,736 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2024-05-30 14:40:34,737 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2024-05-30 14:40:34,812 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-05-30 14:40:34,868 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-05-30 14:40:34,869 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-05-30 14:40:34,869 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-05-30 14:41:36,911 autoreload 203 D:\coder\Pycharm\Django_Blog\users\models.py changed, reloading.
+INFO 2024-05-30 14:41:37,474 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:14:01,786 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:14:09,019 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:14:09,420 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1963
+INFO 2024-05-30 15:14:19,856 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:14:20,190 basehttp 154 "GET /admin/ HTTP/1.1" 200 2588
+INFO 2024-05-30 15:14:20,226 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2024-05-30 15:14:20,289 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-30 15:14:20,290 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-05-30 15:15:18,412 autoreload 203 D:\coder\Pycharm\Django_Blog\home\admin.py changed, reloading.
+INFO 2024-05-30 15:15:19,059 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:16:06,032 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 15:16:08,853 basehttp 154 "GET /admin/ HTTP/1.1" 200 3297
+INFO 2024-05-30 15:16:27,577 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 3221
+INFO 2024-05-30 15:16:27,627 basehttp 154 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2024-05-30 15:16:27,628 basehttp 154 "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+INFO 2024-05-30 15:16:27,628 basehttp 154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2024-05-30 15:16:27,629 basehttp 154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2024-05-30 15:16:27,631 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+INFO 2024-05-30 15:16:27,634 basehttp 154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+INFO 2024-05-30 15:16:27,635 basehttp 154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+INFO 2024-05-30 15:16:27,636 basehttp 154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2024-05-30 15:16:27,637 basehttp 154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2024-05-30 15:16:27,648 basehttp 154 "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+INFO 2024-05-30 15:16:27,648 basehttp 154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+INFO 2024-05-30 15:16:27,648 basehttp 154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2024-05-30 15:16:27,649 basehttp 154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2024-05-30 15:16:27,649 basehttp 154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+INFO 2024-05-30 15:16:27,650 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+INFO 2024-05-30 15:16:27,652 basehttp 154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2024-05-30 15:16:27,653 basehttp 154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2024-05-30 15:16:27,871 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:27,889 basehttp 154 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-05-30 15:16:28,222 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:35,656 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 4862
+INFO 2024-05-30 15:16:35,690 basehttp 154 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2024-05-30 15:16:35,700 basehttp 154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2024-05-30 15:16:35,700 basehttp 154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2024-05-30 15:16:35,700 basehttp 154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2024-05-30 15:16:35,701 basehttp 154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20274
+INFO 2024-05-30 15:16:35,710 basehttp 154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2024-05-30 15:16:35,710 basehttp 154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2024-05-30 15:16:35,710 basehttp 154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20274
+INFO 2024-05-30 15:16:35,710 basehttp 154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2024-05-30 15:16:35,750 basehttp 154 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2024-05-30 15:16:35,959 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:35,990 basehttp 154 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-05-30 15:16:35,990 basehttp 154 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-05-30 15:16:36,319 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:52,112 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:16:52,432 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5097
+INFO 2024-05-30 15:16:52,689 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:52,702 basehttp 154 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-05-30 15:16:52,919 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:59,121 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:16:59,477 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5095
+INFO 2024-05-30 15:16:59,744 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:16:59,987 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:12,265 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:17:12,610 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5095
+INFO 2024-05-30 15:17:12,893 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:13,117 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:25,802 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:17:26,144 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5097
+INFO 2024-05-30 15:17:26,408 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:26,631 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:34,797 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:17:35,368 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5094
+INFO 2024-05-30 15:17:35,625 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:35,847 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:40,560 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:17:40,878 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5093
+INFO 2024-05-30 15:17:41,152 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:41,359 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:45,230 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2024-05-30 15:17:45,576 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5097
+INFO 2024-05-30 15:17:45,880 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:17:49,833 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5752
+INFO 2024-05-30 15:17:50,093 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2024-05-30 15:18:12,493 basehttp 154 "GET / HTTP/1.1" 200 11848
+INFO 2024-05-30 15:18:14,698 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2024-05-30 15:18:21,280 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
