@@ -529,3 +529,54 @@ INFO 2024-05-30 12:32:03,712 basehttp 154 "GET /smscode/?mobile=17740400824&imag
 INFO 2024-05-30 12:32:09,986 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 302 0
 INFO 2024-05-30 12:32:10,005 basehttp 154 "GET /login/ HTTP/1.1" 200 3204
 INFO 2024-05-30 12:32:10,084 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2024-05-30 13:08:26,623 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:08:31,357 basehttp 154 "GET /center HTTP/1.1" 301 0
+INFO 2024-05-30 13:08:31,369 basehttp 154 "GET /center/ HTTP/1.1" 200 4116
+INFO 2024-05-30 13:08:31,415 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2024-05-30 13:08:31,492 basehttp 154 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2024-05-30 13:12:32,902 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:12:35,288 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2024-05-30 13:12:36,182 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2024-05-30 13:12:48,584 basehttp 154 "GET /login/ HTTP/1.1" 200 3204
+INFO 2024-05-30 13:12:51,028 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:12:51,049 basehttp 154 "GET / HTTP/1.1" 200 11865
+INFO 2024-05-30 13:12:57,148 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2024-05-30 13:13:58,847 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:14:02,998 basehttp 154 "GET / HTTP/1.1" 200 11862
+INFO 2024-05-30 13:14:07,084 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2024-05-30 13:18:55,269 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:18:55,862 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:19:06,735 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:19:07,278 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:20:42,261 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:20:47,563 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:20:47,573 basehttp 154 "GET / HTTP/1.1" 200 11862
+INFO 2024-05-30 13:20:53,309 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+WARNING 2024-05-30 13:20:53,325 log 228 Not Found: /accounts/login/
+WARNING 2024-05-30 13:20:53,326 basehttp 154 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3366
+INFO 2024-05-30 13:21:37,185 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:21:37,797 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:21:46,604 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:21:47,156 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:21:58,075 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:21:58,611 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:23:48,489 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:23:49,119 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:24:27,480 autoreload 578 Watching for file changes with StatReloader
+WARNING 2024-05-30 13:24:29,277 log 228 Not Found: /accounts/login/
+WARNING 2024-05-30 13:24:29,278 basehttp 154 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3366
+INFO 2024-05-30 13:24:34,515 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:24:34,526 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3204
+INFO 2024-05-30 13:24:58,482 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:24:58,497 basehttp 154 "GET / HTTP/1.1" 200 11862
+INFO 2024-05-30 13:28:21,407 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:28:22,009 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:28:24,384 autoreload 203 D:\coder\Pycharm\Django_Blog\users\views.py changed, reloading.
+INFO 2024-05-30 13:28:24,977 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:29:43,939 autoreload 578 Watching for file changes with StatReloader
+INFO 2024-05-30 13:29:48,095 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:29:48,106 basehttp 154 "GET / HTTP/1.1" 200 11862
+INFO 2024-05-30 13:29:52,169 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:29:52,182 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3204
+INFO 2024-05-30 13:29:54,436 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2024-05-30 13:29:54,671 basehttp 154 "GET /center/ HTTP/1.1" 200 4106

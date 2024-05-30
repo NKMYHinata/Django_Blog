@@ -9,6 +9,7 @@ from django.views import View
 from django_redis import get_redis_connection
 from django.shortcuts import redirect
 from django.contrib.auth import logout
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from libs.captcha.captcha import captcha
 from libs.yuntongxun.sms import CCP
@@ -227,8 +228,13 @@ class LoginView(View):
         from django.contrib.auth import login
         login(request, user)
 
+        next_page = request.GET.get('next')
+        if next_page:
+            response = redirect(next_page)
+        else:
+            response = redirect(reverse('home:index'))
+
         # 5+6
-        response = redirect(reverse('home:index'))
         if remember != 'on':  # 不记住登录状态
             # 0 表示浏览器关闭后会清除
             request.session.set_expiry(0)
@@ -330,3 +336,10 @@ class ForgetPasswordView(View):
         response = redirect(reverse('users:login'))
         # 7
         return response
+
+
+# 如果用户未登录，LoginRequiredMixin会进行默认跳转到accounts/login/?next=/center/
+# 在setting中修改跳转页面
+class UserCenterView(LoginRequiredMixin, View):
+    def get(self, request):
+        return render(request, 'center.html')
