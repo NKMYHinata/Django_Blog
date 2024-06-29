@@ -21,6 +21,8 @@ from django.http import HttpResponse
 from django.conf import settings
 from django.conf.urls.static import static
 
+# from chat.views import gpt_chat
+
 # 创建/获取日志器
 logger = logging.getLogger('django')
 
@@ -46,7 +48,10 @@ urlpatterns = [
 
     # 首页子应用路由
     path('', include(('home.urls', 'home'), namespace='home')),
+
+    path('', include('chat.urls')),
 ]
 
 # 追加图片访问路由
+
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
